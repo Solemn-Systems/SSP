@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "data_integrity": {"type": "integer", "minimum": 1, "maximum": 5},
+    "user_autonomy": {"type": "integer", "minimum": 1, "maximum": 5},
+    "transparency": {"type": "integer", "minimum": 1, "maximum": 5},
+    "environmental_impact": {"type": "integer", "minimum": 1, "maximum": 5},
+    "social_responsibility": {"type": "integer", "minimum": 1, "maximum": 5}
+  },
+  "required": ["data_integrity", "user_autonomy", "transparency", "environmental_impact", "social_responsibility"]
+}
